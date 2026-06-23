@@ -91,8 +91,16 @@ export default function Contact() {
             </div>
             
             <motion.div variants={fadeInUp} className="w-full h-64 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden">
-               {/* Map Placeholder */}
-               <div className="text-white/20 uppercase tracking-widest text-sm font-semibold">Map Placeholder</div>
+               <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.52629705914!2d76.8130718501625!3d28.643684633215206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1691234567890!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={false} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                className="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-700"
+              />
             </motion.div>
           </motion.div>
 
