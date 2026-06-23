@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-white: #FFFFFF;
+  --color-brand-dark-grey: #1A1A1A;
+  --color-brand-light-grey: #F5F5F5;
+
+  --color-background: var(--color-brand-black);
+  --color-foreground: var(--color-brand-white);
+  
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-geist-sans);
+}
+
+@layer base {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Base heading styles to use Geist by default */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
