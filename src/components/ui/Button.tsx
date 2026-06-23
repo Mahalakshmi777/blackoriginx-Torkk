@@ -5,6 +5,7 @@ import { motion, HTMLMotionProps } from "framer-motion";
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "outline" | "ghost";
   size?: "sm" | "md" | "lg";
+  asChild?: boolean;
 }
 
 // Omit conflicting props from framer-motion to combine with our ButtonProps
