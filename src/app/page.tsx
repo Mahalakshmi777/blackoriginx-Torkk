@@ -83,9 +83,9 @@ export default function Home() {
               
               <div className="relative z-10">
                 <h3 className="text-4xl font-bold tracking-tighter mb-4">TORKK</h3>
-                <p className="text-xl font-medium text-brand-light-grey mb-4">Smart. Electric. Sustainable.</p>
+                <p className="text-xl font-medium text-brand-light-grey mb-4">Smart. Connected. Sustainable.</p>
                 <p className="text-brand-light-grey/60 max-w-sm">
-                  Torkk is our flagship EV mobility brand on a mission to redefine urban mobility.
+                  Torkk is our flagship mobility brand on a mission to redefine urban transport.
                 </p>
               </div>
 

@@ -37,9 +37,9 @@ export default function Brands() {
             <div className="flex flex-col md:flex-row min-h-[400px]">
               <div className="p-10 md:p-16 flex-1 flex flex-col justify-center">
                 <h2 className="text-5xl font-bold tracking-tighter mb-4">TORKK</h2>
-                <h3 className="text-xl text-white/90 mb-6">Smart EV Mobility Brand</h3>
+                <h3 className="text-xl text-white/90 mb-6">Smart Mobility Brand</h3>
                 <p className="text-brand-light-grey/70 leading-relaxed mb-8 max-w-lg">
-                  Designing intelligent electric vehicles that are reliable, connected, and built for the future. Torkk represents the pinnacle of sustainable urban transport.
+                  Designing intelligent vehicles that are reliable, connected, and built for the future. Torkk represents the pinnacle of sustainable urban transport.
                 </p>
                 <div>
                   <Button variant="primary" asChild className="gap-2">

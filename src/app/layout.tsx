@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "BlackOriginX | Building the Future of Mobility",
   },
   description: "BlackOriginX is a holding company building and scaling technology-driven brands that redefine the future of mobility.",
-  keywords: ["technology", "mobility", "EV", "future", "investment"],
+  keywords: ["technology", "mobility", "future", "investment"],
 };
 
 export default function RootLayout({

@@ -92,8 +92,8 @@ export default function About() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
               {[
-                { year: "2025", title: "BlackOriginX Founded", desc: "The vision takes shape with the establishment of the holding company." },
-                { year: "2026", title: "Torkk Launched", desc: "Our flagship EV mobility brand enters the market." },
+                { year: "2026", title: "BlackOriginX Founded", desc: "The vision takes shape with the establishment of the holding company." },
+                { year: "2026", title: "Torkk Launched", desc: "Our flagship mobility brand enters the market." },
                 { year: "2027+", title: "Future Ventures", desc: "Expanding the ecosystem into new deep-tech verticals." }
               ].map((step, i) => (
                 <motion.div
